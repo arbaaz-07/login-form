@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 33%;
+    left:36%;
+    /* display: inline-block;*/
+    width: 40%;
+    /* border: 10px solid black; */
+    background: none;
+}
+
+h1{
+    border-bottom: 3px solid deepskyblue;
+    display: inline-block;
+    margin-bottom: 15px;
+    color: white ;
+}
+
+.box{
+    margin: 20px 10px;
+    /* background: none; */
+}
+.btn{
+    padding: 5px;
+    margin: 4px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box input{
+    background: none;
+    font-weight: 600;
+}
+.btn:hover{
+    background: cornflowerblue;
+    color: black;
+}
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
